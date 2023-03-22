@@ -1,7 +1,9 @@
 {
-  "expoServerPort": 19000,
-  "packagerPort": 19000,
-  "expoServerNgrokUrl": "https://7f-fwj.anonymous.chatty-universe.exp.direct",
-  "packagerNgrokUrl": "https://7f-fwj.anonymous.chatty-universe.exp.direct",
-  "ngrokPid": 13936
+  "expoServerPort": null,
+  "packagerPort": null,
+  "expoServerNgrokUrl": null,
+  "packagerNgrokUrl": null,
+  "ngrokPid": null,
+  "packagerPid": null,
+  "webpackServerPort": null
 }

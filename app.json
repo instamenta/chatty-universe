@@ -5,6 +5,12 @@
       "bundler": "metro"
     },
     "name": "chatty-universe",
-    "slug": "chatty-universe"
+    "slug": "chatty-universe",
+    "extra": {
+      "eas": {
+        "projectId": "09427034-4ce5-407f-a3aa-6c0e9bc8df40"
+      }
+    },
+    "owner": "instamenta"
   }
 }

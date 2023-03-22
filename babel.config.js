@@ -1,11 +1,25 @@
-module.exports = function (api) {
+
+module.exports = function(api) {
   api.cache(true);
   return {
-    presets: ["babel-preset-expo"],
+    presets: ['babel-preset-expo'],
     plugins: [
-      "@babel/plugin-proposal-export-namespace-from",
-      "react-native-reanimated/plugin",
-      require.resolve("expo-router/babel"),
+      [
+        'module-resolver',
+        {
+          alias: {
+            'react-native-vector-icons': '@expo/vector-icons',
+            '@expo/vector-icons': '@expo/vector-icons',
+            'native-base': 'native-base-shoutem-theme',
+          },
+        },
+      ],
+      [
+        '@babel/plugin-proposal-decorators',
+        {
+          legacy: true,
+        },
+      ],
     ],
   };
 };
